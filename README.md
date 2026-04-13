@@ -2,7 +2,7 @@
 
 Este repositório contém um script de automação para provisionamento de infraestrutura em servidores Linux. O objetivo é padronizar a criação de usuários, grupos e diretórios, aplicando permissões de segurança específicas para cada departamento.
 
-## 📋 Detalhes do Projeto
+# Detalhes do Projeto
 
 O script realiza as seguintes operações automaticamente:
 
@@ -15,14 +15,14 @@ O script realiza as seguintes operações automaticamente:
     - O diretório `/publico` tem acesso total (read/write/execute) para todos.
     - Diretórios específicos de cada grupo são restritos: apenas o dono (root) e os membros do grupo possuem acesso total; outros usuários não possuem nenhuma permissão.
 
-## 🚀 Como executar o projeto
+# Como executar o projeto
 
-### Pré-requisitos
+# Pré-requisitos
 * Sistema Operacional Linux (Ubuntu, Debian, etc.).
 * Permissões de superusuário (root ou sudo).
 * Pacote `openssl` instalado (geralmente já vem nativo).
 
-### Passo a passo
+# Passo a passo
 
 1.  **Clone o repositório:**
     ```bash
@@ -40,7 +40,7 @@ O script realiza as seguintes operações automaticamente:
     sudo ./script.sh
     ```
 
-## 🛠️ Tecnologias Utilizadas
+# Tecnologias Utilizadas
 * **Bash Script:** Linguagem de script para automação.
 * **Linux Permissions:** Gerenciamento de acessos via `chmod` e `chown`.
 * **OpenSSL:** Utilizado para geração de hash de senhas.
